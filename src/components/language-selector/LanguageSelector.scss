@@ -1,0 +1,25 @@
+@import "../../App.scss";
+.language-panel {
+  max-height: 30vh;
+  overflow-x: scroll;
+  color: var(--mainBlack);
+  /* Hide scrollbar for Chrome, Safari and Opera */
+
+  /* Hide scrollbar for IE, Edge and Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.language-panel::-webkit-scrollbar {
+  display: none;
+}
+.language-selector {
+  background: rgba(0, 0, 0, 0.5);
+  color: var(--mainWhite);
+  width: 20rem;
+  .selected-language {
+    background: var(--mainBlack);
+  }
+  .normal-language {
+    background: var(--offWhite);
+  }
+}

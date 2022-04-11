@@ -1,0 +1,11 @@
+@import "../../App.scss";
+
+.title {
+  text-align: center;
+  .title-underline {
+    height: 0.25rem;
+    width: 7rem;
+    background: var(--primaryColor);
+    margin: 0 auto;
+  }
+}

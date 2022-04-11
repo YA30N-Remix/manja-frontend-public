@@ -1,0 +1,7 @@
+.ingredient-container {
+  display: flex;
+  flex-flow: row wrap;
+  div:last-child {
+    flex-grow: 10;
+  }
+}
